@@ -1,0 +1,16 @@
+// Simulating the Twitter profile data
+const twitterProfile = {
+  username: 'example_user',
+  posts: [
+    { id: 1, content: 'First tweet' },
+    { id: 2, content: 'Second tweet' },
+    { id: 3, content: 'Third tweet' },
+    // Add more tweets here...
+  ]
+};
+
+// Counting the number of posts
+const numberOfPosts = twitterProfile.posts.length;
+
+// Outputting the result
+console.log(`Number of posts in the profile @${twitterProfile.username}: ${numberOfPosts}`);
